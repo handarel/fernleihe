@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Erinnerung/Reminder</title>
+</head>
+<body>
+  <p>
+    English version see below
+    <br />
+    ----------------
+  </p>
+
+  <p>Liebe(r) <%= firstName %> <%= lastName %></p>
+
+  <p>
+    eine kurze Erinnerung:
+    <br />
+    die Leihfrist für Ihre Fernleihe endet am <%= dateOfRecovery %>.
+    <br />
+    Bitte schicken Sie das Buch rechtzeitig an die Bibliothek zurück.
+  </p>
+
+  <p style="padding-left: 2rem">
+    <%= title %>
+    <br />
+    <%= author %>
+  </p>
+
+  <p>
+    Vielen Dank
+    <br />
+    Britt Hauck / Maren Zychla
+  </p>
+
+  <p>----------------</p>
+
+  <p>Dear <%= firstName %> <%= lastName %></p>
+
+  <p>
+    a short reminder:
+    <br />
+    the loan period for your interlibrary loan expires on <%= dateOfRecovery %>.
+    <br />
+    Please return it to the library in time.
+  </p>
+
+  <p style="padding-left: 2rem">
+    <%= title %>
+    <br />
+    <%= author %>
+  </p>
+
+  <p>
+    Sincerely
+    <br />
+    Britt Hauck / Maren Zychla
+  </p>
+</body>
+</html>

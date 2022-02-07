@@ -1,0 +1,60 @@
+{
+  "name": "fernleihe",
+  "description": "Repo für die Fernleihe des WZBs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+    "fernleihe"
+  ],
+  "homepage": "https://gitlab.wzb.eu/wzb/bib/fernleihe",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.wzb.eu/wzb/bib/fernleihe.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.wzb.eu/wzb/bib/fernleihe/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Sebastian Berg",
+      "email": "sebastian.berg.win@wzb.eu"
+    }
+  ],
+  "engines": {
+    "node": ">=16.13.1 <17.0.0",
+    "pnpm": ">=6"
+  },
+  "packageManager": "pnpm@6.29.2",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/nodemailer": "^6.4.4",
+    "@types/pg": "^8.6.4",
+    "@types/ssh2": "^0.5.51",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint": "^8.8.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unicorn": "^40.1.0",
+    "license-checker": "^25.0.1",
+    "npm-check-updates": "^12.2.1",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "moment": "^2.29.1",
+    "moment-feiertage": "^2.0.7",
+    "nodemailer": "^6.7.2",
+    "pg": "^8.7.3",
+    "ssh2": "^1.6.0",
+    "winston": "^3.5.1"
+  }
+}

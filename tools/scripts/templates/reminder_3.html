@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Mahnung/Reminder</title>
+</head>
+<body>
+  <p>
+    English version see below
+    <br />
+    ----------------
+  </p>
+
+  <p>Liebe(r) <%= firstName %> <%= lastName %></p>
+
+  <p>
+    die Leihfrist für Ihre Fernleihe lief am <%= dateOfRecovery %> ab.
+    <br />
+    Leider haben Sie auf unsere Bitte um Rückgabe des folgenden Buches bis heute nicht reagiert:
+  </p>
+
+  <p style="padding-left: 2rem">
+    <%= title %>
+    <br />
+    <%= author %>
+  </p>
+
+  <p>
+    Bitte schicken Sie das Buch sofort an die Bibliothek zurück.
+  </p>
+
+  <p>
+    Vielen Dank
+    <br />
+    Britt Hauck / Maren Zychla
+  </p>
+
+  <p>----------------</p>
+
+  <p>Dear <%= firstName %> <%= lastName %></p>
+
+  <p>
+    the loan period for your interlibrary loan expired on <%= dateOfRecovery %>.
+    <br />
+    Unfortunately, you did not respond to our reminders for returning the following book:
+  </p>
+
+  <p style="padding-left: 2rem">
+    <%= title %>
+    <br />
+    <%= author %>
+  </p>
+
+  <p>
+    Please return it to the library immediately.
+  </p>
+
+  <p>
+    Sincerely
+    <br />
+    Britt Hauck / Maren Zychla
+  </p>
+</body>
+</html>
